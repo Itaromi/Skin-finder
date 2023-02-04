@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>Minecraft Head Finder</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Minecraft Head Finder</h1>
+    <form onsubmit="loadSkin(); return false;">
+      <label for="username">Pseudonyme :</label>
+      <input type="text" id="username" placeholder="Entre ton pseudo Minecraft">
+      <input type="submit" value="Voir sa tête">
+    </form>
+    <div id="skin-preview"></div>
+    <div id="skin-command"></div>
+    <script src="skin.js"></script>
+  </body>
+</html>
